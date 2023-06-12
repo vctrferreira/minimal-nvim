@@ -14,7 +14,9 @@ lvim.plugins = {
   {
     'github/copilot.vim'
   },
+  { 'akinsho/toggleterm.nvim',           version = "*", config = true },
   { 'mg979/vim-visual-multi' },
+  { 'elixir-editors/vim-elixir' },
   { 'jose-elias-alvarez/typescript.nvim' },
 
   { 'lunarvim/lunar.nvim' },

@@ -27,3 +27,7 @@ lvim.lsp.buffer_mappings.normal_mode["gf"] = {
   ":Telescope frecency<cr>",
   kind.cmp_kind.Reference .. " Telescope Frecency"
 }
+
+-- toggle term implementation
+
+lvim.keys.normal_mode["<C-t>"] = ":ToggleTerm<CR>"
